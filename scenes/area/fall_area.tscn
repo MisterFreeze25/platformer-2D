@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://d258ptdutaf3v"]
+
+[ext_resource type="Script" uid="uid://ki3lgug5lir8" path="res://scenes/area/fall_area.gd" id="1_bdk51"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_5mhml"]
+
+[node name="Area2D" type="Area2D" unique_id=1586075905]
+script = ExtResource("1_bdk51")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=816342314]
+shape = SubResource("WorldBoundaryShape2D_5mhml")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
