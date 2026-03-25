@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dkem2smyb2unf"]
 
-[ext_resource type="Script" uid="uid://bhkacnl4oyrmi" path="res://scenes/character/main_character.gd" id="1_ig48j"]
+[ext_resource type="Script" uid="uid://bhkacnl4oyrmi" path="res://scripts/character/main_character.gd" id="1_ig48j"]
 [ext_resource type="Texture2D" uid="uid://2lbeidnei86s" path="res://assets/character/Jump (32x32).png" id="1_nrcqd"]
 [ext_resource type="Texture2D" uid="uid://cx6lycfu54gv3" path="res://assets/character/Idle (32x32).png" id="2_ig48j"]
 [ext_resource type="Texture2D" uid="uid://ds3dcp2rqpanm" path="res://assets/character/Run (32x32).png" id="4_e6tc2"]

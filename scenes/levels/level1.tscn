@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://dooqnpf7y105v"]
 
-[ext_resource type="Script" uid="uid://dn8s52cqrraid" path="res://scenes/game_objects/game_manager.gd" id="1_6sh32"]
+[ext_resource type="Script" uid="uid://dn8s52cqrraid" path="res://scripts/game_objects/game_manager.gd" id="1_6sh32"]
 [ext_resource type="Texture2D" uid="uid://dchpcl4jws1u6" path="res://assets/background/Green.png" id="2_ejswk"]
 [ext_resource type="Texture2D" uid="uid://bofjwywkh0m04" path="res://assets/terrain/Terrain (16x16).png" id="3_bbk5w"]
 [ext_resource type="PackedScene" uid="uid://dkem2smyb2unf" path="res://scenes/character/main_character.tscn" id="4_conm7"]
 [ext_resource type="PackedScene" uid="uid://ca0nod6dvq2ql" path="res://scenes/game_objects/collectable.tscn" id="5_d3jkd"]
 [ext_resource type="PackedScene" uid="uid://b8sryypd5r0pq" path="res://scenes/game_objects/finish.tscn" id="6_u3awl"]
 [ext_resource type="PackedScene" uid="uid://dqqcrrbd22ib" path="res://scenes/levels/level2.tscn" id="7_ejswk"]
-[ext_resource type="Script" uid="uid://c7ltd3exqcljd" path="res://scenes/menu/pause.gd" id="9_plydf"]
+[ext_resource type="Script" uid="uid://c7ltd3exqcljd" path="res://scripts/menu/pause.gd" id="9_plydf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h2yge"]
 texture = ExtResource("3_bbk5w")
@@ -181,7 +181,7 @@ sources/0 = SubResource("TileSetAtlasSource_h2yge")
 [node name="GameManager" type="Node" parent="." unique_id=290988720 node_paths=PackedStringArray("hearts")]
 unique_name_in_owner = true
 script = ExtResource("1_6sh32")
-hearts = [NodePath(""), NodePath(""), NodePath("")]
+hearts = [null, null, null]
 
 [node name="SceneObjects" type="Node" parent="." unique_id=1587116660]
 

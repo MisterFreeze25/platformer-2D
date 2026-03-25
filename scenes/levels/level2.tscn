@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://dqqcrrbd22ib"]
 
-[ext_resource type="Script" uid="uid://dn8s52cqrraid" path="res://scenes/game_objects/game_manager.gd" id="1_21xmu"]
+[ext_resource type="Script" uid="uid://dn8s52cqrraid" path="res://scripts/game_objects/game_manager.gd" id="1_21xmu"]
 [ext_resource type="Texture2D" uid="uid://no628vlivuan" path="res://assets/background/Yellow.png" id="2_yqkch"]
 [ext_resource type="Texture2D" uid="uid://bofjwywkh0m04" path="res://assets/terrain/Terrain (16x16).png" id="3_rmy57"]
 [ext_resource type="PackedScene" uid="uid://dkem2smyb2unf" path="res://scenes/character/main_character.tscn" id="4_qulpo"]
 [ext_resource type="PackedScene" uid="uid://ca0nod6dvq2ql" path="res://scenes/game_objects/collectable.tscn" id="5_jifot"]
 [ext_resource type="PackedScene" uid="uid://b8sryypd5r0pq" path="res://scenes/game_objects/finish.tscn" id="6_3opl0"]
 [ext_resource type="PackedScene" uid="uid://ctasoh7araeni" path="res://scenes/levels/level3.tscn" id="7_hrcei"]
-[ext_resource type="Script" uid="uid://c7ltd3exqcljd" path="res://scenes/menu/pause.gd" id="9_b0vvs"]
+[ext_resource type="Script" uid="uid://c7ltd3exqcljd" path="res://scripts/menu/pause.gd" id="9_b0vvs"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h2yge"]
 texture = ExtResource("3_rmy57")

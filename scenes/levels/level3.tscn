@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://ctasoh7araeni"]
 
-[ext_resource type="Script" uid="uid://dn8s52cqrraid" path="res://scenes/game_objects/game_manager.gd" id="1_7eb4w"]
+[ext_resource type="Script" uid="uid://dn8s52cqrraid" path="res://scripts/game_objects/game_manager.gd" id="1_7eb4w"]
 [ext_resource type="Texture2D" uid="uid://dilkaqnrw7qab" path="res://assets/background/Pink.png" id="2_hadiw"]
 [ext_resource type="Texture2D" uid="uid://bofjwywkh0m04" path="res://assets/terrain/Terrain (16x16).png" id="3_72x3h"]
 [ext_resource type="PackedScene" uid="uid://dkem2smyb2unf" path="res://scenes/character/main_character.tscn" id="4_wb0vq"]
@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://b8sryypd5r0pq" path="res://scenes/game_objects/finish.tscn" id="6_522sc"]
 [ext_resource type="PackedScene" uid="uid://dndun8cxivxvh" path="res://scenes/menu/main_menu.tscn" id="7_a82vw"]
 [ext_resource type="PackedScene" uid="uid://d258ptdutaf3v" path="res://scenes/area/fall_area.tscn" id="8_t14x3"]
-[ext_resource type="Script" uid="uid://c7ltd3exqcljd" path="res://scenes/menu/pause.gd" id="10_hadiw"]
+[ext_resource type="Script" uid="uid://c7ltd3exqcljd" path="res://scripts/menu/pause.gd" id="10_hadiw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h2yge"]
 texture = ExtResource("3_72x3h")

@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://ca0nod6dvq2ql"]
 
-[ext_resource type="Script" uid="uid://0rmphv1hnrqe" path="res://scenes/game_objects/collectable.gd" id="1_llfh3"]
+[ext_resource type="Script" uid="uid://0rmphv1hnrqe" path="res://scripts/game_objects/collectable.gd" id="1_llfh3"]
 [ext_resource type="Texture2D" uid="uid://b088cpme6euva" path="res://assets/game_elements/Cherries.png" id="1_ti8a4"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lquwl"]
